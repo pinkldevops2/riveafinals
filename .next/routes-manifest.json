@@ -1,0 +1,416 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [
+    {
+      "page": "/admin/case-study/[id]",
+      "regex": "^/admin/case\\-study/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/case\\-study/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/case-study-categories/[id]",
+      "regex": "^/admin/case\\-study\\-categories/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/case\\-study\\-categories/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/case-study-type/[id]",
+      "regex": "^/admin/case\\-study\\-type/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/case\\-study\\-type/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/doctors-list/[id]",
+      "regex": "^/admin/doctors\\-list/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/doctors\\-list/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/gallery/[id]",
+      "regex": "^/admin/gallery/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/gallery/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/menus/add/[type]",
+      "regex": "^/admin/menus/add/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPtype": "nxtPtype"
+      },
+      "namedRegex": "^/admin/menus/add/(?<nxtPtype>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/menus/[id]",
+      "regex": "^/admin/menus/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/menus/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/news/[id]",
+      "regex": "^/admin/news/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/news/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/news-categories/[id]",
+      "regex": "^/admin/news\\-categories/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/news\\-categories/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/pages/[id]",
+      "regex": "^/admin/pages/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/pages/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/resources/[id]",
+      "regex": "^/admin/resources/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/resources/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/testimonial-categories/[id]",
+      "regex": "^/admin/testimonial\\-categories/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/testimonial\\-categories/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/testimonials/[id]",
+      "regex": "^/admin/testimonials/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/testimonials/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/users/[id]",
+      "regex": "^/admin/users/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/users/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/case-studies/[slug]",
+      "regex": "^/case\\-studies/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/case\\-studies/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/news/[slug]",
+      "regex": "^/news/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/news/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/resources/[slug]",
+      "regex": "^/resources/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/resources/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/[slug]",
+      "regex": "^/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/(?<nxtPslug>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/admin",
+      "regex": "^/admin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin(?:/)?$"
+    },
+    {
+      "page": "/admin/case-study",
+      "regex": "^/admin/case\\-study(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/case\\-study(?:/)?$"
+    },
+    {
+      "page": "/admin/case-study/add",
+      "regex": "^/admin/case\\-study/add(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/case\\-study/add(?:/)?$"
+    },
+    {
+      "page": "/admin/case-study-categories",
+      "regex": "^/admin/case\\-study\\-categories(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/case\\-study\\-categories(?:/)?$"
+    },
+    {
+      "page": "/admin/case-study-categories/add",
+      "regex": "^/admin/case\\-study\\-categories/add(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/case\\-study\\-categories/add(?:/)?$"
+    },
+    {
+      "page": "/admin/case-study-type",
+      "regex": "^/admin/case\\-study\\-type(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/case\\-study\\-type(?:/)?$"
+    },
+    {
+      "page": "/admin/case-study-type/add",
+      "regex": "^/admin/case\\-study\\-type/add(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/case\\-study\\-type/add(?:/)?$"
+    },
+    {
+      "page": "/admin/contact-form",
+      "regex": "^/admin/contact\\-form(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/contact\\-form(?:/)?$"
+    },
+    {
+      "page": "/admin/doctors-list",
+      "regex": "^/admin/doctors\\-list(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/doctors\\-list(?:/)?$"
+    },
+    {
+      "page": "/admin/doctors-list/add",
+      "regex": "^/admin/doctors\\-list/add(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/doctors\\-list/add(?:/)?$"
+    },
+    {
+      "page": "/admin/gallery",
+      "regex": "^/admin/gallery(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/gallery(?:/)?$"
+    },
+    {
+      "page": "/admin/gallery/add",
+      "regex": "^/admin/gallery/add(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/gallery/add(?:/)?$"
+    },
+    {
+      "page": "/admin/login",
+      "regex": "^/admin/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/login(?:/)?$"
+    },
+    {
+      "page": "/admin/menus",
+      "regex": "^/admin/menus(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/menus(?:/)?$"
+    },
+    {
+      "page": "/admin/news",
+      "regex": "^/admin/news(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/news(?:/)?$"
+    },
+    {
+      "page": "/admin/news/add",
+      "regex": "^/admin/news/add(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/news/add(?:/)?$"
+    },
+    {
+      "page": "/admin/news-categories",
+      "regex": "^/admin/news\\-categories(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/news\\-categories(?:/)?$"
+    },
+    {
+      "page": "/admin/news-categories/add",
+      "regex": "^/admin/news\\-categories/add(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/news\\-categories/add(?:/)?$"
+    },
+    {
+      "page": "/admin/pages",
+      "regex": "^/admin/pages(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/pages(?:/)?$"
+    },
+    {
+      "page": "/admin/pages/add",
+      "regex": "^/admin/pages/add(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/pages/add(?:/)?$"
+    },
+    {
+      "page": "/admin/profile",
+      "regex": "^/admin/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/profile(?:/)?$"
+    },
+    {
+      "page": "/admin/resources",
+      "regex": "^/admin/resources(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/resources(?:/)?$"
+    },
+    {
+      "page": "/admin/resources/add",
+      "regex": "^/admin/resources/add(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/resources/add(?:/)?$"
+    },
+    {
+      "page": "/admin/settings",
+      "regex": "^/admin/settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/settings(?:/)?$"
+    },
+    {
+      "page": "/admin/testimonial-categories",
+      "regex": "^/admin/testimonial\\-categories(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/testimonial\\-categories(?:/)?$"
+    },
+    {
+      "page": "/admin/testimonial-categories/add",
+      "regex": "^/admin/testimonial\\-categories/add(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/testimonial\\-categories/add(?:/)?$"
+    },
+    {
+      "page": "/admin/testimonials",
+      "regex": "^/admin/testimonials(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/testimonials(?:/)?$"
+    },
+    {
+      "page": "/admin/testimonials/add",
+      "regex": "^/admin/testimonials/add(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/testimonials/add(?:/)?$"
+    },
+    {
+      "page": "/admin/users",
+      "regex": "^/admin/users(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/users(?:/)?$"
+    },
+    {
+      "page": "/admin/users/add",
+      "regex": "^/admin/users/add(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/users/add(?:/)?$"
+    },
+    {
+      "page": "/case-studies",
+      "regex": "^/case\\-studies(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/case\\-studies(?:/)?$"
+    },
+    {
+      "page": "/doctors-list",
+      "regex": "^/doctors\\-list(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/doctors\\-list(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/gallery",
+      "regex": "^/gallery(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/gallery(?:/)?$"
+    },
+    {
+      "page": "/news",
+      "regex": "^/news(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/news(?:/)?$"
+    },
+    {
+      "page": "/resources",
+      "regex": "^/resources(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources(?:/)?$"
+    },
+    {
+      "page": "/testimonials",
+      "regex": "^/testimonials(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/testimonials(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}
