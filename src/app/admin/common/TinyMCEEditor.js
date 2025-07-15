@@ -56,11 +56,11 @@ export default function TinyMCEEditor({ value, onChange }) {
                 selector: "#editor",
                 height: 400,
                 menubar: true,
-                plugins: "code advlist autolink lists link image charmap preview anchor",
+                plugins: "code advlist autolink lists link image charmap preview anchor media",
                 toolbar:
                     "undo redo | formatselect | bold italic | alignleft aligncenter alignright alignjustify | outdent indent | code",
                 extended_valid_elements: "script[src|async|defer|type|charset]",
-                valid_children: "+body[script]",
+                valid_children: "+body[script],+body[video],+body[audio]",
                 valid_elements: "*[*]",
                 content_css: "/assets/css/bootstrap.min.css,/assets/css/custom.css,/assets/css/responsive.css,/assets/css/extra.css",
                 allow_script_urls: true,
