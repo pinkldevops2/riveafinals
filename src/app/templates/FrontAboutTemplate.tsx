@@ -479,7 +479,7 @@ const FrontAboutTemplate = ({ data }: { data: any }) =>{
           <h2 className="common_head text-white" dangerouslySetInnerHTML={{__html: data.helth.title}}></h2>
           <div dangerouslySetInnerHTML={{__html: data.helth.description}}></div>
         </div>
-        <div className="col-md-4 text-end">
+        <div className="col-md-4 text-end d-flex justify-content-end">
           <a href={data.helth.ctaButton1.btnUrl} target={data.helth.ctaButton1.isNewTab === true ? '_blank' : '_self'} className="btn_cmn white_btn book-btn">{data.helth.ctaButton1.btnTitle}</a>
           <a href={data.helth.ctaButton2.btnUrl} target={data.helth.ctaButton2.isNewTab === true ? '_blank' : '_self'} className="btn_cmn purple_btn m-left-13px">{data.helth.ctaButton2.btnTitle}</a>
         </div>

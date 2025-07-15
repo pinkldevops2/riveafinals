@@ -127,7 +127,7 @@ const FrontHighwayToHealthTemplate = ({ data }: { data: any }) =>{
             <h2 className="common_head text-white" dangerouslySetInnerHTML={{ __html: data.protectFuture.title }}></h2>
             <div dangerouslySetInnerHTML={{ __html: data.protectFuture.description }}></div>
           </div>
-          <div className="col-md-4 mt-1">
+          <div className="col-md-4 mt-1 d-flex justify-content-end">
             <div dangerouslySetInnerHTML={{ __html: data.protectFuture.topDescription }}></div>
             <a href={data.protectFuture.ctaButton1.btnUrl} target={data.protectFuture.ctaButton1.isNewTab === true ? '_blank' : '_self'} className="btn_cmn white_btn book-btn">{data.protectFuture.ctaButton1.btnTitle}</a>
             <a href={data.protectFuture.ctaButton2.btnUrl} target={data.protectFuture.ctaButton2.isNewTab === true ? '_blank' : '_self'} className="btn_cmn purple_btn m-left-13px">{data.protectFuture.ctaButton2.btnTitle}</a>
