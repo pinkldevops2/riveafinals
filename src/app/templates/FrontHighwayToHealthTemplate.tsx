@@ -127,10 +127,12 @@ const FrontHighwayToHealthTemplate = ({ data }: { data: any }) =>{
             <h2 className="common_head text-white" dangerouslySetInnerHTML={{ __html: data.protectFuture.title }}></h2>
             <div dangerouslySetInnerHTML={{ __html: data.protectFuture.description }}></div>
           </div>
-          <div className="col-md-4 mt-1 d-flex justify-content-end">
+          <div className="col-md-4 mt-1">
             <div dangerouslySetInnerHTML={{ __html: data.protectFuture.topDescription }}></div>
+			<div className=" d-flex justify-content-end">
             <a href={data.protectFuture.ctaButton1.btnUrl} target={data.protectFuture.ctaButton1.isNewTab === true ? '_blank' : '_self'} className="btn_cmn white_btn book-btn">{data.protectFuture.ctaButton1.btnTitle}</a>
             <a href={data.protectFuture.ctaButton2.btnUrl} target={data.protectFuture.ctaButton2.isNewTab === true ? '_blank' : '_self'} className="btn_cmn purple_btn m-left-13px">{data.protectFuture.ctaButton2.btnTitle}</a>
+			</div>
           </div>
         </div>
       </div>
@@ -224,7 +226,7 @@ const FrontHighwayToHealthTemplate = ({ data }: { data: any }) =>{
           <div className="col-md-12">
             <h2 className="common_head text-white" dangerouslySetInnerHTML={{ __html: data.diagnostics.title }}></h2>
           </div>
-          <div className="text-end">
+          <div className="text-end  d-flex justify-content-end">
             <a href={data.diagnostics.ctaButton1.btnUrl} target={data.diagnostics.ctaButton1.isNewTab === true ? '_blank' : '_self'} className="btn_cmn white_btn book-btn">{data.diagnostics.ctaButton1.btnTitle}</a>
             <a href={data.diagnostics.ctaButton2.btnUrl} target={data.diagnostics.ctaButton2.isNewTab === true ? '_blank' : '_self'} className="btn_cmn purple_btn m-left-13px">{data.diagnostics.ctaButton2.btnTitle}</a>
           </div>

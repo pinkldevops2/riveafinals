@@ -203,7 +203,7 @@ const FrontVascularEndovascularSurgeryTemplate = ({ data }: { data: any }) =>{
       <div className="row align-items-end">
         <div className="col-md-12 " data-aos="fade-left">
           <h2 className="common_head text-white"  dangerouslySetInnerHTML={{ __html: data.experienceFuture.title }}></h2>
-          <div className="text-end view-all-btn">
+          <div className="text-end view-all-btn  d-flex justify-content-end">
             <a href={data.experienceFuture.ctaButton.btnUrl} target={data.experienceFuture.ctaButton.isNewTab === true ? '_blank' : '_self'} className="btn_cmn purple_btn">{data.experienceFuture.ctaButton.btnTitle}</a>
           </div>
         </div>
